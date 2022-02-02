@@ -1,0 +1,233 @@
+/* Main body and Utilities */
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #3a3a3a;
+  justify-content: center;
+  margin: 0;
+}
+h4 {
+  font-size: 28px;
+  color: #18191f;
+  line-height: 1.3;
+}
+
+.button-style {
+  background-color: #e02c6d;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 40px;
+  margin: 10px 0px 10px 0px;
+}
+/* Navigation bar and Title of the page  */
+.menu {
+  font-weight: bold;
+  font-size: 24px;
+  /* line-height: 36px; */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  margin-top: 50px;
+}
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 70px;
+}
+.links a {
+  text-decoration: none;
+  color: #3a3a3a;
+  margin-right: 34px;
+  font-weight: 600px;
+  font-size: 16px;
+}
+
+/* Introduction and image  */
+.intro {
+  display: flex;
+  margin: 50px 70px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-container {
+  margin-top: 50px;
+  margin-right: 80px;
+}
+.flex-container p {
+  text-align: left;
+  font-size: 18px;
+  margin: 35px 0 25px 0;
+  padding: 5px 0 5px 0;
+}
+.flex-container h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.img-container {
+  flex-grow: 1;
+  margin: 50px;
+  text-align: center;
+}
+.circle {
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  opacity: 0.55;
+}
+.camera {
+  position: relative;
+  width: 440px;
+  height: 414px;
+  z-index: 1;
+}
+
+/* Company logos  */
+.company-logos {
+  text-align: center;
+  margin: 70px 25px 30px 25px;
+}
+.company-logos hr {
+  margin: 0 70px 0;
+  border: 1px solid #66666621;
+  padding: 0 70px 0;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 36px 62px 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-right: 61px;
+  margin-bottom: 23px;
+}
+.target {
+  margin-right: 0;
+}
+
+/* product cards  */
+.prod-cards {
+  margin: 50px 105px 0;
+  left: 115px;
+  margin-top: 150px;
+  margin-right: 197px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 70px;
+  position: absolute;
+  left: 555px;
+  margin-top: 70px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  margin: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  margin: 15px;
+  padding: 14px;
+  box-shadow: 10px 10px 20px #888885;
+  border-radius: 10px;
+}
+.card-image {
+  border-radius: 10px;
+}
+.card-info {
+  margin: 14px;
+  line-height: 1.3;
+  text-align: center;
+}
+.price {
+  font-size: 24px;
+  color: #18191f;
+}
+.stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star {
+  margin-right: 5px;
+}
+.filled {
+  color: #fb8200;
+}
+.empty {
+  color: #fb8200;
+}
+.ratings-container {
+  display: flex;
+  align-items: center;
+}
+.ratings-container p {
+  margin: 5px;
+}
+.see-more {
+  display: flex;
+  width: auto;
+  float: right;
+  justify-content: flex-end;
+}
+
+/* bonus content  */
+.bonus-content {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px 15px 0;
+}
+.browse {
+  font-size: 28px;
+}
+.bonus-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+}
+
+/* footer styling  */
+footer {
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-logo {
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  background-color: #22213c;
+  border: 5px solid #ffffff00;
+  border-radius: 50%;
+}
+.social-logo a {
+  text-decoration: none;
+  color: white;
+}
